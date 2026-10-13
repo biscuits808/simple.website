@@ -11,7 +11,7 @@ h1{
     font-size-adjust: 80px;
     color: rgb(211, 208, 15);
     font-weight: lighter;
-    padding: 30px;
+    padding: 100px;
     padding-left: 100px;
 }
  
@@ -19,5 +19,20 @@ h2{
     font-size-adjust: 80px;
     color: rgb(212, 175, 80);
     font-weight: lighter;
-    padding: 0%;
+    padding: 100px;
+}
+
+img { 
+    display: block;
+    width: 200px; 
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    background-color: aquamarine;
+}
+#gallery-container{
+    display: inline-block;
+}
+.imagecontainer{
+    display: inline-block;
+    padding: 20px;
 }
